@@ -1,0 +1,6 @@
+arrow~=1.2.2
+Werkzeug~=2.1.2
+Flask~=2.1.2
+setuptools~=58.1.0
+XMind~=1.2.0
+pandas~=1.4.2

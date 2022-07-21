@@ -27,6 +27,7 @@
 {#            <th width="100px">Attributes</th>#}
             <th width="23%">Steps</th>
             <th width="23%">expectedresults</th>
+            <th width="50">status</th>
         </tr>
     </thead>
 
@@ -114,6 +115,13 @@
                     </ol>
                 {% endif %}
             </td>#}
+      {#  <td>
+            <select>
+                <option>pending</option>
+                <option>passed</option>
+                <option>failed</option>
+            </select>
+        </td>#}
         </tr>
     {% endfor %}
     </tbody>
